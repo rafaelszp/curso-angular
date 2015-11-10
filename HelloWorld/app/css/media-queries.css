@@ -1,0 +1,26 @@
+@media screen and (max-width: 350px){
+    .fundo {
+        background: red;
+        background-image: linear-gradient(to right, blue,green);
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px){
+    .fundo{
+        background-image: linear-gradient(to left, green,yellow);
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .fundo{
+
+        background-image: linear-gradient(to left, yellow,orange);
+    }
+}
+
+@media screen and (min-width: 900px){
+    .fundo{
+
+        background-image: linear-gradient(to right, orange,red);
+    }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+    <script src="bower_components/angular-ui-growl/src/growl.js"></script>
+    <script src="app/js/aula4.js"></script>
+    <script src="app/filters/maiusculo-filter.js"></script>
+    <script src="app/services/alert-service.js"></script>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
+
+
+
+</head>
+<body ng-app="senai">
+
+<div class="container container-fluid">
+
+    <div class="row" ng-controller="IndexController">
+
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Cadastro de Pessoas</div>
+            <div class="panel-body">
+                <form name="frmPessoas" ng-submit="salvar()" novalidate>
+                    <div class="form-group">
+                        <label for="itNome">Nome</label>
+                        <input type="text"
+                               class="form-control"
+                               id="itNome"
+                               name="itNome"
+                               ng-model="pessoa.nome"
+                               required
+                               ng-minlength="3"
+                               ng-maxlength="15">
+
+                        <!--<div ng-messages="frmPessoas.itNome.$error" ng-if="frmPessoas.itNome.$dirty">-->
+                            <!--<p ng-message="minlength">Nome menor que o tamanho requerido</p>-->
+
+                            <!--<p ng-message="maxlength">Nome maior que o tamanho requerido</p>-->
+
+                            <!--<p ng-message="required">Campo obrigatório</p>-->
+                        <!--</div>-->
+                        <div class="help-block" ng-messages="frmPessoas.itNome.$error" ng-if="frmPessoas.itNome.$dirty">
+                            <!--<div ng-messages-include="error-messages"></div>-->
+                            <div ng-messages-include="app/views/mensagens.html"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="itEmail">Email</label>
+                        <input type="email"
+                               class="form-control"
+                               id="itEmail"
+                               name="itEmail"
+                               ng-model="pessoa.email"
+                               required>
+
+                        <!--<div ng-messages="frmPessoas.itEmail.$error" ng-if="frmPessoas.itEmail.$dirty">-->
+                            <!--<p ng-message="required">Campo obrigatório</p>-->
+
+                            <!--<p ng-message="email">E-mail inválido</p>-->
+                        <!--</div>-->
+                        <div class="help-block" ng-messages="frmPessoas.itEmail.$error" ng-if="frmPessoas.itEmail.$dirty">
+                            <!--<div ng-messages-include="error-messages"></div>-->
+                            <div ng-messages-include="app/views/mensagens.html"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="itDataNascimento">Data de Nascimento</label>
+                        <input type="date"
+                               class="form-control"
+                               id="itDataNascimento"
+                               name="itDataNascimento"
+                               ng-model="pessoa.dataNascimento"
+                               required>
+
+                        <!--<div ng-messages="frmPessoas.itDataNascimento.$error" ng-if="frmPessoas.itDataNascimento.$dirty">-->
+                            <!--<p ng-message="required">Campo obrigatório</p>-->
+
+                            <!--<p ng-message="date">Data inválida</p>-->
+                        <!--</div>-->
+                        <div class="help-block" ng-messages="frmPessoas.itDataNascimento.$error" ng-if="frmPessoas.itDataNascimento.$dirty">
+                            <!--<div ng-messages-include="error-messages"></div>-->
+                            <div ng-messages-include="app/views/mensagens.html"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="pull-right">
+                                <button class="btn btn-primary"
+                                        type="submit">
+                                    <i class="fa fa-save"></i>
+                                    Salvar
+                                </button>
+                                <button class="btn btn-info"
+                                        ng-click="limpar()"
+                                        ng-disabled="frmPessoas.$pristine"
+                                        type="reset">
+                                    <i class="fa fa-eraser"></i>
+                                    Limpar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Data de Nascimento</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="pessoa in pessoas">
+                        <td ng-bind="pessoa.nome | maiusculo"></td>
+                        <td ng-bind="pessoa.email | maiusculo"></td>
+                        <td ng-bind="pessoa.dataNascimento | date:'dd/MM/yyyy'"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>
+                    {{dataStr}}
+                </p>
+                <p>
+                    {{pessoa.nome | maiusculo}}
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!--<script type="text/ng-template" id="error-messages">-->
+    <!--<p ng-message="minlength">Nome menor que o tamanho requerido</p>-->
+    <!--<p ng-message="maxlength">Nome maior que o tamanho requerido</p>-->
+    <!--<p ng-message="required">Campo obrigatório</p>-->
+    <!--<p ng-message="date">Data inválida</p>-->
+    <!--<p ng-message="email">E-mail Inválido</p>-->
+<!--</script>-->
+
+</body>
+</html>

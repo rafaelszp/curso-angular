@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app/js/index-controller.js"></script>
+</head>
+<body ng-app="HelloApp">
+
+    <div ng-controller="IndexController">
+        {{nome}}
+        <input type="text" ng-model="nome"/>
+        <button ng-click="click()">Clicar :D</button>
+    </div>
+</body>
+</html>
