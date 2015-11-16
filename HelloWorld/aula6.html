@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>aula 6</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-growl/src/growl.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+
+    <script src="app/js/aula6.js"></script>
+    <script src="app/services/alert-service.js"></script>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.min.css"/>
+
+</head>
+<body ng-app="senai">
+<div class="container" ng-controller="IndexController">
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Nome</label>
+                <input type="text" ng-model="pessoa.nome" class="form-control"/>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" ng-model="pessoa.email" class="form-control"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <button
+                    type="button"
+                    class="btn btn-primary"
+                    ng-click="salvar()">
+                <i class="fa fa-floppy-o"></i>
+                Salvar
+            </button>
+            <button
+                    class="btn btn-warning"
+                    type="button"
+                    ng-click="limpar()">
+                <i class="fa fa-eraser"></i>
+                Limpar
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="grid1"
+                    ui-grid="gridOptions"
+                    class="grid"
+                    ui-grid-resize-columns
+                    ng-style="gridStyle"></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

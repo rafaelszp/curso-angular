@@ -7,5 +7,5 @@ function maiusculo(){
             return input.toUpperCase();
         }
         return input;
-    }
+    };
 }

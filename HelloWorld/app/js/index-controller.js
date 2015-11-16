@@ -7,6 +7,6 @@ angular.module('HelloApp')
 
         $scope.click = function(){
             $scope.nome = 'Rafael';
-        }
+        };
 
     });

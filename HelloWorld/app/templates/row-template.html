@@ -1,0 +1,7 @@
+<div
+        ng-style="grid.appScope.getRowStyle(row.entity)"
+        ng-repeat="(colRenderIndex, col) in colContainer.renderedColumns track by col.uid"
+        class="ui-grid-cell" ui-grid-cell>
+</div>
+
+<!--ng-repeat="col in colContainer.renderedColumns track by col.colDef.name"-->

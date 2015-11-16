@@ -24,8 +24,8 @@ function IndexController($scope) {
 
         $scope.alterarPrimeiroCarro = alterarPrimeiroCarro;
         function alterarPrimeiroCarro(){
-            $scope.carros[0].nome = $scope.carros[0].nome + ":D:D:D";
-            $scope.carros[0].cor = $scope.carros[0].cor + ":D:D:D";
+            $scope.carros[0].nome = $scope.carros[0].nome + ':D:D:D';
+            $scope.carros[0].cor = $scope.carros[0].cor + ':D:D:D';
         }
 
         $scope.removerUltimoCarro = removerUltimoCarro;

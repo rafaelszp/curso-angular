@@ -9,7 +9,7 @@ function IndexController($scope) {
     init();
 
     function init() {
-        $scope.styleDiv = {}
+        $scope.styleDiv = {};
         $scope.myClass = '';
         $scope.$watch('nome', nomeChange);
     }
