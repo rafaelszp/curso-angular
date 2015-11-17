@@ -8,6 +8,9 @@ function IndexController($scope,AlertService,$filter) {
     $scope.pessoa = {};
     $scope.pessoas = [];
 
+    var variavel_idiota = '';
+
+
     $scope.salvar = salvar;
     $scope.limpar = limpar;
 

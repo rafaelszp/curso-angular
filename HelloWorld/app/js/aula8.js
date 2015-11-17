@@ -4,10 +4,10 @@
         .controller('IndexController', IndexController)
         .config(config);
 
-    IndexController.$inject = ['$scope','$ocLazyLoad','$state','$rootScope'];
+    //IndexController.$inject = ['$scope','$ocLazyLoad','$state','$rootScope'];
 
 
-
+    /* @ngInject */
     function IndexController($scope,$ocLazyLoad, $state, $rootScope) {
 
         var vm = $scope;
@@ -57,11 +57,12 @@
             templateUrl: 'app/views/pessoa/pessoa-cadastro.html',
             url: '/cadastro/:id',
             resolve: {
-                deps: function($ocLazyLoad){
+                deps: function ($ocLazyLoad) {
                     return $ocLazyLoad.load('app/views/pessoa/cadastro-pessoa-controller.js');
                 }
             }
         };
+
         var pesquisaPessoa = {
             templateUrl: 'app/views/pessoa/pessoa-pesquisa.html',
             url: '/pesquisa'
