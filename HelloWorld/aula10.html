@@ -18,7 +18,7 @@
 
     <script src="app/componentes/directives/sn-primeira-diretiva/sn-primeira-diretiva.js"></script>
     <script src="app/componentes/directives/input-text/input-text.js"></script>
-
+    <script src="app/componentes/transcludes/crud/crud.js"></script>
 
 
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
@@ -28,17 +28,23 @@
 
 </head>
 <body ng-app="senai">
-<div class="container-fluid">
+<div class="container">
 
-   <sn-primeira-diretiva></sn-primeira-diretiva>
+     <sn-primeira-diretiva></sn-primeira-diretiva>
 
-    <div class="row" ng-controller="IndexController">
+     <div class="row" ng-controller="IndexController">
         <sn-input-text label="Nome do tio" registro="vm.pessoa.nome" ng-blur="onFocusOutNome($event)" colspan="7"></sn-input-text>
         {{vm.pessoa}}
     </div>
 
-
     
+    <sn-crud titulo="Cadastro de Pessoas - Transclude">
+        <sn-input-text label="Nome da tia" ></sn-input-text>
+    </sn-crud>
+    
+
+
+
 </div>
 
 

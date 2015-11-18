@@ -1,0 +1,1497 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"crud",
+				"app/componentes/transcludes/crud/crud.js"
+			],
+			[
+				"ng",
+				"ngdirective	angular.directive"
+			],
+			[
+				"js",
+				"javascript"
+			],
+			[
+				"boo",
+				"bootstrap"
+			],
+			[
+				"ngmodu",
+				"angular.module"
+			],
+			[
+				"ngcontro",
+				"angular: $controller"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"cpf",
+				"cpfValidator"
+			],
+			[
+				"app",
+				"appdynamics_vb"
+			],
+			[
+				"TOM",
+				"TOMCAT_RESTART_SCRIPT_PATH"
+			],
+			[
+				"restar",
+				"restart-jenkins-ci"
+			],
+			[
+				"admin",
+				"admin_users"
+			],
+			[
+				"jenkins",
+				"jenkins_ci"
+			],
+			[
+				"epel",
+				"epel-release-7-5"
+			],
+			[
+				"elasti",
+				"elasticsearch001"
+			],
+			[
+				"lib",
+				"lib_resources"
+			],
+			[
+				"ma",
+				"matchedString"
+			],
+			[
+				"newF",
+				"new-field"
+			],
+			[
+				"template",
+				"templateUrl"
+			],
+			[
+				"mail_se",
+				"mail_session_getin"
+			],
+			[
+				"resource",
+				"resource_compartilhado"
+			],
+			[
+				"res",
+				"resource_compartilhado"
+			],
+			[
+				"TOMCAT_",
+				"TOMCAT_FOLDER"
+			],
+			[
+				"TOMCA",
+				"TOMCAT_FILE"
+			],
+			[
+				"J",
+				"JDK_FOLDER"
+			],
+			[
+				"JD",
+				"JDK_FILE"
+			],
+			[
+				"syn",
+				"synced_folder"
+			],
+			[
+				"forw",
+				"forwarded_port"
+			],
+			[
+				"private",
+				"private_network"
+			],
+			[
+				"jv",
+				"jvmRoute"
+			],
+			[
+				"Catalina",
+				"Catalina-node-02"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"utf",
+				"utf8_decode"
+			],
+			[
+				"mysql_fetch_a",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mysql_e",
+				"mysql_error"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/componentes/transcludes/crud/crud.html",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/componentes/transcludes/crud/crud.js",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Unix",
+				"name": "crud.js"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Create Package File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"disablep",
+				"Package Control: Disable Package"
+			],
+			[
+				"reident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"npm",
+				"npm: Install Package"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"prev iew",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"grunt ",
+				"Grunt"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"temin",
+				"Terminal: Open in project folder"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"ssjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"jshin",
+				"JSHint"
+			],
+			[
+				"ssjavas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"termina",
+				"Terminal: Open in project folder"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"open",
+				"Terminal: Open"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"print",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"java",
+				"Javatar: Operations..."
+			],
+			[
+				"maven",
+				"Maven: Run ..."
+			],
+			[
+				"mt",
+				"Maven: Test"
+			],
+			[
+				"mi",
+				"Maven: Run install"
+			],
+			[
+				"test",
+				"Maven: Test"
+			],
+			[
+				"m",
+				"Maven: Test"
+			],
+			[
+				"create",
+				"Javatar: Create new..."
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssj",
+				"Set Syntax: Java"
+			],
+			[
+				"ssja",
+				"Set Syntax: Java"
+			],
+			[
+				"ssr",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ssrub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sssh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ssdock",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"ssdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssgo",
+				"Set Syntax: Go"
+			],
+			[
+				"ssshell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"JSON",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"sslua",
+				"Set Syntax: Lua"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"SSHTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"add packa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pacakge",
+				"Package Control: List Packages"
+			],
+			[
+				"lista packa",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"settin",
+				"Preferences: Settings - User"
+			],
+			[
+				"xpath",
+				"XPath: Copy path to clipboard"
+			],
+			[
+				"xpa",
+				"XPath: Copy path to clipboard"
+			],
+			[
+				"j",
+				"Pretty JSON: JSON query with ./jq"
+			],
+			[
+				"pakage ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"/usr/bin/ls",
+			"ls",
+			"npm",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler({\"http\":\"http://10.21.152.13:3128\"})) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rafael/dev/estudos/npm/curso-angular/HelloWorld/app",
+		"/home/rafael/dev/estudos/npm/curso-angular/HelloWorld/app/componentes/directives/sn-primeira-diretiva",
+		"/home/rafael/dev/estudos/npm/curso-angular/HelloWorld/app/componentes/transcludes",
+		"/home/rafael/dev/estudos/npm/curso-angular/HelloWorld/app/componentes/transcludes/crud"
+	],
+	"file_history":
+	[
+		"/home/rafael/dev/estudos/npm/curso-angular/HelloWorld/index.html",
+		"/home/rafael/dev/estudos/npm/curso-angular/HelloWorld/aula10.html",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/angularjs-secured.sublime-project",
+		"/home/rafael/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/rafael/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/app/lib/angular-http-auth/src/http-auth-interceptor.js",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/Gruntfile.js",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/app/js/getin-angular.js",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/app/js/controllers/app.controller.js",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/app/js/app.js",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/app/js/services/getin.authentication.service.js",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/app/js/app.config.js",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rafael/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/package.json",
+		"/home/rafael/Dropbox/dev/sublime/informacoes.md",
+		"/home/rafael/tmp/untitled.js",
+		"/home/rafael/.config/sublime-text-3/Packages/Javatar/README.md",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Glue.sublime-settings",
+		"/home/rafael/dev/estudos/npm/angularjs-secured/src/main/angular/terminal.glue",
+		"/home/rafael/.config/sublime-text-3/Packages/Package Control.sublime-settings",
+		"/home/rafael/Dropbox/Dicas/CURL_COM_COOKIES_AUTH.txt",
+		"/home/rafael/Dropbox/Dicas/LINUX_killall_and_locale.txt",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/src/js/factories/contact.js",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/src/js/app.js",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/src/js/controllers/contact/list.js",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/src/js/controllers/contact/new.js",
+		"/home/rafael/dev/fieggit/cr5-webservices/cr5-webservices-war/src/main/webapp/WEB-INF/web.xml",
+		"/home/rafael/dev/fieggit/cr5-webservices/cr5-webservices-war/src/main/webapp-prd/WEB-INF/jboss-web.xml",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/views/list.html",
+		"/home/rafael/dev/fieggit/cr5-webservices/cr5-webservices-war/src/main/webapp-dev/WEB-INF/jboss-web.xml",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/webapp/WEB-INF/Owasp.CsrfGuard.js",
+		"/tmp/xa-NPJgqm/LEIAME.TXT",
+		"/home/rafael/dev/estudos/npm/ipsu-louvores/app/index.html",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/target/tomcat/conf/web.xml",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/webapp/protect.html",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/webapp/javascript.html",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/webapp/WEB-INF/web.xml",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/java/org/owasp/csrfguard/test/HelloServlet.java",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/webapp/index.html",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/webapp/WEB-INF/classes/Owasp.CsrfGuard.overlay.properties",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/src/main/webapp/form.html",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard/src/main/resources/csrfguard.js",
+		"/home/rafael/dev/test_projects/jasperserver/prd/war-prd/jasperserver/WEB-INF/web.xml",
+		"/home/rafael/dev/estudos/OWASP-CSRFGuard/csrfguard-test/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/session_jsp.java",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/main.html",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/Gruntfile.js",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/dest/src/application_1431085824673.js",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/dest/src/application_1431085824673.min.js",
+		"/home/rafael/dev/estudos/picketlink/jboss-picketlink-quickstarts/picketlink-angularjs-rest/src/main/java/org/jboss/as/quickstarts/picketlink/angularjs/security/service/LogoutService.java",
+		"/home/rafael/dev/estudos/picketlink/jboss-picketlink-quickstarts/picketlink-angularjs-rest/src/main/webapp/js/services.js",
+		"/home/rafael/dev/estudos/picketlink/jboss-picketlink-quickstarts/picketlink-angularjs-rest/src/main/webapp/js/security.js",
+		"/home/rafael/dev/estudos/picketlink/jboss-picketlink-quickstarts/picketlink-angularjs-rest/src/main/webapp/js/app.js",
+		"/home/rafael/dev/estudos/picketlink/jboss-picketlink-quickstarts/picketlink-angularjs-rest/src/main/webapp/js/controllers.js",
+		"/home/rafael/dev/estudos/picketlink/jboss-picketlink-quickstarts/picketlink-angularjs-rest/README.md",
+		"/home/rafael/dev/estudos/picketlink/jboss-picketlink-quickstarts/picketlink-angularjs-rest/src/main/java/org/jboss/as/quickstarts/picketlink/angularjs/service/PersonService.java",
+		"/home/rafael/dev/fieggit/portalpresencial/portalpresencial-ejb/src/test/integration-test/java/AlunoRepositoryImplTest.java",
+		"/home/rafael/dev/fieggit/portalpresencial/portalpresencial-ejb/pom.xml",
+		"/home/rafael/dev/fieggit/portalpresencial/pom.xml",
+		"/home/rafael/tmp/NetBeansProjects/AngularJSPhoneCat/nbproject/project.properties",
+		"/home/rafael/tmp/parcons/parcons.txt",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/lib/angular-route/README.md",
+		"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/dest/lib/angular-resource/README.md",
+		"/home/rafael/dev/fieggit/sesuite-integracao/sesuite-integracao-ejb/src/test/commom/br/org/sistemafieg/sesuite/integracao/test/arquillian/util/ArquillianUtil.java",
+		"/home/rafael/dev/fieggit/sesuite-integracao/pom.xml",
+		"/home/rafael/dev/fieggit/sesuite-integracao/sesuite-integracao-ejb/src/test/component/br/org/sistemafieg/sesuite/integracao/test/ejb/persistence/ADInterfaceRepositoryTest.java",
+		"/home/rafael/dev/fieggit/sesuite-integracao/sesuite-integracao-ejb/pom.xml",
+		"/home/rafael/dev/fieggit/sesuite-integracao/sesuite-integracao-ejb/src/test/commom/br/org/sistemafieg/sesuite/integracao/test/arquillian/util/EntityManagerProducer.java",
+		"/home/rafael/dev/estudos/forge/destaspike-jta/src/test/resources/META-INF/test-persistence.xml",
+		"/home/rafael/dev/fieggit/sesuite-integracao/sesuite-integracao-ejb/src/test/resources/arquillian.xml",
+		"/home/rafael/dev/estudos/forge/destaspike-jta/src/main/java/fieg/deltaspike/jta/service/TodoServiceBean.java",
+		"/home/rafael/dev/estudos/forge/destaspike-jta/src/main/java/fieg/deltaspike/jta/rest/TodoEndpoint.java",
+		"/home/rafael/dev/estudos/forge/destaspike-jta/src/main/java/fieg/deltaspike/jta/rest/RestApplication.java",
+		"/home/rafael/tmp/testes - Pontos a Anotar.txt",
+		"/home/rafael/dev/estudos/tdd/tdd-sample/tdd-sample-ejb/src/test/component/br/org/sistemafieg/tddsample/ejb/persistence/impl/PessoaDaoTest.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/pom.xml",
+		"/home/rafael/dev/fieggit/parcons/parcons-war/src/test/java/br/org/sistemafieg/parcons/controller/AlteracaoSenhaCtrlTest.java",
+		"/home/rafael/dev/fieggit/parcons/pom.xml",
+		"/home/rafael/dev/fieggit/parcons/parcons-war/src/main/java/br/org/sistemafieg/parcons/controller/PesquisaCtrl.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/business/impl/PesquisaEmpresaBusinessImpl.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/test/java/br/org/sistemafieg/parcons/business/impl/SindicatoBusinessImplTest.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-war/src/test/java/br/org/sistemafieg/parcons/controller/SindicatoCtrlTest.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-war/src/test/java/br/org/sistemafieg/parcons/controller/PesquisaCtrlTest.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/test/java/br/org/sistemafieg/parcons/business/impl/PesquisaEmpresaBusinessImplTest.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/business/impl/EmpresaBusinessImpl.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/useful/CalendarioImpl.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/useful/Calendario.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/business/PesquisaBusiness.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/business/impl/exceptions/BusinessException.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/persistence/ConvenioRepository.java",
+		"/home/rafael/dev/fieggit/parcons/parcons-ejb/src/main/java/br/org/sistemafieg/parcons/business/impl/exceptions/RegistroNaoEncontradoException.java",
+		"/home/rafael/dev/test_projects/jasperserver/prd/war-dev/jasperserver/WEB-INF/esapi/Websphere.Owasp.CsrfGuard.properties",
+		"/home/rafael/dev/test_projects/jasperserver/prd/war-dev/jasperserver/WEB-INF/esapi/Owasp.CsrfGuard.properties",
+		"/home/rafael/Dropbox/Dicas/LINUX_Instalando Postfix Relay Fedora_CENTOS.txt",
+		"/home/rafael/Dropbox/Dicas/LINUX_ENVIAR_EMAIL POR LINHA DE COMANDO.txt",
+		"/home/rafael/.cache/.fr-cpMGk0/WEB-INF/js-jboss7-ds.xml",
+		"/home/rafael/dev/test_projects/jasperserver/war-producao/jasperserver/WEB-INF/datasources.xml",
+		"/home/rafael/dev/test_projects/jasperserver/war-producao/jasperserver/WEB-INF/js-jboss7-ds.xml",
+		"/home/rafael/dev/test_projects/jasperserver/prd/war-prd/jasperserver.war/WEB-INF/js-jboss7-ds.xml",
+		"/home/rafael/.cache/.fr-5zqMky/WEB-INF/js-jboss7-ds.xml",
+		"/home/rafael/.cache/.fr-HI9zTJ/WEB-INF/js-jboss7-ds.xml",
+		"/home/rafael/.cache/.fr-8cIPmZ/WEB-INF/datasources.xml",
+		"/run/user/1000/gvfs/sftp:host=10.21.152.140,user=root/opt/jboss/config/configuration/host-slave.xml",
+		"/home/rafael/dev/redhat/jboss/eap/jboss-eap-6.2/standalone/configuration/standalone.xml",
+		"/run/user/1000/gvfs/sftp:host=10.21.152.139,user=root/opt/jboss/config/configuration/domain.xml",
+		"/home/rafael/dev/redhat/jboss/eap/jboss-eap-6.2/modules/net/sf/jtds/main/module.xml",
+		"/home/rafael/dev/redhat/jboss/eap/jboss-eap-6.2/modules/org/postgresql/main/module.xml",
+		"/home/rafael/tmp/NetBeansProjects/jaxwsExample/README.md",
+		"/home/rafael/Documents/Avaliacao2/06/Test.java",
+		"/home/rafael/Documents/Avaliacao2/07/Falcon.java",
+		"/home/rafael/tmp/importacao_sesuite.sql",
+		"/home/rafael/Documents/Avaliacao2/02/questao.txt",
+		"/home/rafael/Documents/Avaliacao2/04/questão.txt",
+		"/home/rafael/Documents/Avaliacao2/03/questao.txt",
+		"/home/rafael/Documents/Avaliacao2/05/questao.txt",
+		"/home/rafael/Documents/prova/questao11/Test.java",
+		"/home/rafael/dev/estudos/tdd/tdd-sample/tdd-sample-war/src/test/system/br/org/sistemafieg/tddsample/sample/prova2/questao02/Conta.java",
+		"/home/rafael/Documents/prova/Test.java",
+		"/home/rafael/Documents/Avaliacao2/02/ContaCorrente.java",
+		"/home/rafael/Documents/Avaliacao2/02/ContaPoupanca.java",
+		"/home/rafael/Documents/Avaliacao2/02/Conta.java",
+		"/home/rafael/Documents/Avaliacao2/Clazz01.java",
+		"/home/rafael/Documents/Avaliacao2/02/ContaCredito.java",
+		"/home/rafael/dev/estudos/vagrant/srv-dynatrace/Vagrantfile",
+		"/home/rafael/dev/estudos/vagrant/srv-tomcat/Vagrantfile",
+		"/home/rafael/tmp/dynatrace_pwd"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/src,-*bootstrap*",
+			"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/src,-*/lib/*.txt",
+			"/home/rafael/dev/estudos/vagrant/yo-angular/contacts-app/app/src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"directive",
+			"alt\\+space",
+			"space",
+			"authservice",
+			">\n",
+			"tomcat",
+			"logger",
+			"SERVLET_PATH",
+			"addEvent",
+			"initSession",
+			"sessionStorage",
+			"authc",
+			"btoa",
+			"LoggedIn",
+			"@Secures",
+			"@LoggedIn",
+			"proxy",
+			"10.21.152.13",
+			"basedir",
+			"lib",
+			"bower",
+			"deltaspike",
+			"delstapike",
+			"^(\\[.*\\))",
+			"^(\\#)(.*$)",
+			"office365.com",
+			"yum remove",
+			"^",
+			"'",
+			"$",
+			"^",
+			"\\|",
+			"|",
+			"|table|postgres",
+			"public | ",
+			"\\\\",
+			"jaspersoft",
+			"\\",
+			"x",
+			"profile name=\"ha",
+			"-",
+			"Falcon",
+			"\"",
+			"\\+\"",
+			"+\"",
+			"\\+",
+			"+",
+			"\"+",
+			"appdynamics",
+			"(\\d+)(\\-\\d)",
+			"<!",
+			"migracao",
+			"sockets",
+			"deploym",
+			"ldap",
+			"fatal",
+			"jasper",
+			"deployment",
+			"deployments",
+			"del",
+			"copy",
+			"perfino",
+			"$",
+			"^",
+			"$",
+			"^",
+			"@transactional",
+			"md",
+			");\n",
+			"	\n",
+			"					\n",
+			"');\n",
+			"cpf-field.html",
+			"appdynamics",
+			"appdynamics_mon",
+			"jenkins",
+			"jenkins_ci",
+			"|",
+			"^(?!\\w*Test)\\w*$",
+			"^(?! \\w*Test).*$",
+			"create_or_up",
+			"class",
+			"jenkins-cli.jar",
+			"jenkins-cli.jar -s ",
+			"create_or_update_user",
+			"jenkins-cli.jar",
+			"jenkins-cli",
+			"127.0.0.1:8080",
+			"wget ",
+			"change-home-owner",
+			"':}\n",
+			"security",
+			"file { '/opt/jenkins/hudson.tasks.Maven.xml':\n		mode => 0644,\n		content => template('jenkins_ci/hudson.tasks.Maven.xml'),\n		alias => 'jenkins-maven-config'\n	}\n	",
+			"jenkins",
+			"wget",
+			">\n",
+			"basic",
+			"--basic",
+			"https",
+			"print",
+			"body",
+			"response",
+			"output",
+			"show",
+			"-L",
+			"output",
+			"print",
+			"output",
+			"method",
+			"--post",
+			"method",
+			"(.*)",
+			"\"",
+			"(.*)",
+			"tempui",
+			"test-ds.xml",
+			"jbossHome",
+			"org.junit",
+			"junit",
+			"webdriver",
+			"selenium",
+			"browser",
+			"settings",
+			"arquillian",
+			"jax",
+			"CustomerConverter",
+			"jdgProperty",
+			"mail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"gmail.com",
+			"dnf install ",
+			"yum remove -y ",
+			"\"",
+			" owner to 'jasperserver';",
+			"alter table ",
+			"",
+			"\\n",
+			"\\\\n",
+			"\\n",
+			"",
+			"PessoaFisica",
+			"",
+			"dynatrace",
+			"$1",
+			"jaspser",
+			" \" ",
+			"+\" ",
+			" \"",
+			" \\\\n\"",
+			" \\n\"",
+			"+\"",
+			"sm",
+			"perfino",
+			"appdynamics",
+			"appdynamics-mon",
+			"appdynamics",
+			"",
+			"puppet",
+			"entityManager.createNativeQuery(\"delete from $1\").executeUpdate();",
+			"",
+			"entityManager.createNativeQuery($1).executeUpdate();",
+			"\"",
+			"\"$1\"$2\"$3\"",
+			"",
+			"\\n",
+			"\"$\"1$2\"$3\"$4",
+			"\"$\"1$2\"$3\"",
+			"logmonitor",
+			"maven.sistemafieg.org.br",
+			"",
+			"\\n#",
+			"eth4",
+			"dev eth0",
+			" dev eth0",
+			"dev eth0",
+			"0/24 via ",
+			"0/22 via ",
+			"",
+			"0/24 via ",
+			".",
+			">",
+			"<",
+			"\\",
+			"."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/componentes/transcludes/crud/crud.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/componentes/transcludes/crud/crud.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"auto_name": "crud.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mvn_exec":
+	{
+		"height": 211.0
+	},
+	"output.textarea":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "HelloWorld.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"aula10.h",
+				"aula10.html"
+			],
+			[
+				"controller.js",
+				"app/js/controllers/app.controller.js"
+			],
+			[
+				"getin-a",
+				"app/js/getin-angular.js"
+			],
+			[
+				"http-au",
+				"app/lib/angular-http-auth/src/http-auth-interceptor.js"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"getin.",
+				"app/js/services/getin.authentication.service.js"
+			],
+			[
+				"app.js",
+				"app/js/app.js"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"app.config",
+				"app/js/app.config.js"
+			],
+			[
+				"getin.login",
+				"app/js/services/getin.login.service.js"
+			],
+			[
+				"web.xml",
+				"csrfguard-test/src/main/webapp/WEB-INF/web.xml"
+			],
+			[
+				"csrfguard.js",
+				"csrfguard/src/main/resources/csrfguard.js"
+			],
+			[
+				"csrf",
+				"csrfguard/src/main/resources/csrfguard.js"
+			],
+			[
+				"pom.xml",
+				"pom.xml"
+			],
+			[
+				"persistence",
+				"target/classes/META-INF/persistence.xml"
+			],
+			[
+				"beans.xml",
+				"src/main/webapp/WEB-INF/beans.xml"
+			],
+			[
+				"arquillianutil",
+				"tdd-sample-war/src/test/system/br/org/sistemafieg/tddsample/util/ArquillianUtil.java"
+			],
+			[
+				"groovy",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/files/puppet_helper.groovy"
+			],
+			[
+				"ci.",
+				"manifests/ci.pp"
+			],
+			[
+				"secuir",
+				"modules/jenkins_ci/manifests/security.pp"
+			],
+			[
+				"cli.pp",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/cli.pp"
+			],
+			[
+				"user.pp",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/user.pp"
+			],
+			[
+				"cli_hel",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/cli_helper.pp"
+			],
+			[
+				"user",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/user.pp"
+			],
+			[
+				"vagr",
+				"Vagrantfile"
+			],
+			[
+				"config.xml",
+				"modules/jenkins_ci/templates/config.xml"
+			],
+			[
+				"params.pp",
+				"modules/jenkins_ci/manifests/params.pp"
+			],
+			[
+				"app",
+				"modules/jenkins_ci/manifests/app.pp"
+			],
+			[
+				"ci.pp",
+				"manifests/ci.pp"
+			],
+			[
+				"usersp",
+				"modules/jenkins_ci/manifests/users.pp"
+			],
+			[
+				"quartz",
+				"sesuite-integracao-ejb/target/classes/quartz.properties"
+			],
+			[
+				"sesuite-integracao-ds",
+				"sesuite-integracao-ejb/target/test-classes/sesuite-integracao-ds.xml"
+			],
+			[
+				"cred",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/credentials.pp"
+			],
+			[
+				"securi",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/security.pp"
+			],
+			[
+				"crede",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/credentials.pp"
+			],
+			[
+				"plugins.pp",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/plugins.pp"
+			],
+			[
+				"secur",
+				"librarian/.tmp/librarian/cache/source/puppet/forge/forge_puppetlabs_com/rtyler-jenkins/1.4.0/jenkins/manifests/security.pp"
+			],
+			[
+				"system",
+				"modules/jenkins_ci/manifests/system.pp"
+			],
+			[
+				"app.",
+				"modules/jenkins_ci/manifests/app.pp"
+			],
+			[
+				"test-ds",
+				"src/test/resources/test-ds.xml"
+			],
+			[
+				"arquillian.xml",
+				"tdd-sample-ear/test-resources/arquillian.xml"
+			],
+			[
+				"kitchensinktest",
+				"functional-tests/src/test/java/org/jboss/as/quickstarts/kitchensink/test/webdriver/KitchensinkTest.java"
+			],
+			[
+				"arquillian",
+				"functional-tests/target/test-classes/arquillian.xml"
+			],
+			[
+				"inse",
+				"src/test/resources/xml/insecure-request.xml"
+			],
+			[
+				"secure-requ",
+				"src/test/resources/xml/secure-request.xml"
+			],
+			[
+				"soap-req",
+				"src/test/resources/xml/soap-request.xml"
+			],
+			[
+				"soap",
+				"src/test/resources/xml/soap-request.xml"
+			],
+			[
+				"vagrant",
+				"srv-logmonitor/Vagrantfile"
+			],
+			[
+				"log4j.xml",
+				"srv-logmonitor/dummyApp/target/test-classes/log4j.xml"
+			],
+			[
+				"log4j.",
+				"srv-logmonitor/dummyApp/target/test-classes/log4j.xml"
+			],
+			[
+				"log4j.x",
+				"srv-logmonitor/dummyApp/target/test-classes/log4j.xml"
+			],
+			[
+				"elastic",
+				"srv-logmonitor/modules/monitor/manifests/elastic_search.pp"
+			],
+			[
+				"layout.java",
+				"srv-logmonitor/dummyApp/src/main/java/com/example/dummyapp/LogstashJsonLayout.java"
+			],
+			[
+				"setclas",
+				"srv-tomcat/conf/tomcat/setclasspath.sh"
+			],
+			[
+				"vagrantfile",
+				"srv-logmonitor/Vagrantfile"
+			],
+			[
+				"puppetfile",
+				"srv-logmonitor/librarian/Puppetfile"
+			],
+			[
+				"config.pp",
+				"srv-tomcat/modules/tomcat/manifests/config.pp"
+			],
+			[
+				"server.pp",
+				"srv-tomcat/modules/tomcat/manifests/server.pp"
+			],
+			[
+				"puppet",
+				"srv-logmonitor/librarian/Puppetfile"
+			],
+			[
+				"new-fiel",
+				"yo-angular/contacts-app/app/views/templates/new-field.html"
+			],
+			[
+				"install-ja",
+				"srv-jenkins/scripts/install-java.sh"
+			],
+			[
+				"install",
+				"srv-tomcat/scripts/install-java.sh"
+			],
+			[
+				"jdk.pp",
+				"srv-tomcat/modules/java/manifests/jdk.pp"
+			],
+			[
+				"system.pp",
+				"srv-tomcat/modules/system/manifests/default.pp"
+			],
+			[
+				"new-fie",
+				"yo-angular/contacts-app/app/views/templates/new-field.html"
+			],
+			[
+				"form",
+				"yo-angular/fieg-layout/app/views/pessoa/formulario.html"
+			],
+			[
+				"main.h",
+				"yo-angular/contacts-app/app/main.html"
+			],
+			[
+				"install-java",
+				"srv-tomcat/scripts/install-java.sh"
+			],
+			[
+				"pend",
+				"src/main/java/sp/rafael/simplerest/rest/PessoaEndpoint.java"
+			],
+			[
+				"p",
+				"src/main/java/sp/rafael/simplerest/model/to/Pessoa.java"
+			],
+			[
+				"pes",
+				"src/main/java/sp/rafael/simplerest/model/to/Pessoa.java"
+			],
+			[
+				"pessoa",
+				"src/main/java/sp/rafael/simplerest/model/to/Pessoa.java"
+			],
+			[
+				"tomcat.pp",
+				"manifests/tomcat.pp"
+			],
+			[
+				"tomcatd",
+				"scripts/tomcatd"
+			],
+			[
+				"install-tom",
+				"scripts/install-tomcat.sh"
+			],
+			[
+				"estilo.css",
+				"fieg-layout/app/css/estilo.css"
+			],
+			[
+				"form-fiel",
+				"contacts-app/app/views/templates/form-field.html"
+			],
+			[
+				"form-fi",
+				"contacts-app/app/views/templates/form-field.html"
+			],
+			[
+				"input-field",
+				"fieg-layout/app/views/templates/input-field.html"
+			],
+			[
+				"new.html",
+				"contacts-app/app/views/new.html"
+			],
+			[
+				"new",
+				"contacts-app/app/views/new.html"
+			],
+			[
+				"form-field",
+				"contacts-app/app/views/templates/form-field.html"
+			],
+			[
+				"new.",
+				"contacts-app/app/views/new.html"
+			],
+			[
+				"formulario",
+				"fieg-layout/app/views/pessoa/formulario.html"
+			],
+			[
+				"main.html",
+				"contacts-app/app/main.html"
+			],
+			[
+				"new.h",
+				"contacts-app/app/views/new.html"
+			],
+			[
+				"estilo",
+				"fieg-layout/app/css/estilo.css"
+			],
+			[
+				"nav",
+				"contacts-app/app/views/nav.html"
+			],
+			[
+				"main.ht",
+				"contacts-app/app/main.html"
+			],
+			[
+				"api.js",
+				"contacts-app/api.js"
+			],
+			[
+				"nav.ht",
+				"contacts-app/app/views/nav.html"
+			],
+			[
+				"new.js",
+				"contacts-app/app/src/js/controllers/contact/new.js"
+			],
+			[
+				"list.js",
+				"contacts-app/app/src/js/controllers/contact/list.js"
+			],
+			[
+				"main.js",
+				"src/app/scripts/controllers/main.js"
+			],
+			[
+				"vagrantfil",
+				"vagrant/Vagrantfile"
+			],
+			[
+				"angular.min.js",
+				"src/bower_components/angular/angular.min.js"
+			],
+			[
+				"jquery.min.js",
+				"src/bower_components/jquery/dist/jquery.min.js"
+			],
+			[
+				"bootstrap.min.js",
+				"src/bower_components/bootstrap/dist/js/bootstrap.min.js"
+			],
+			[
+				"hellowold.java",
+				"common/src/main/java/org/fusesource/example/cdi/camel/HelloWorld.java"
+			],
+			[
+				"boot",
+				"container/jboss/src/main/java/org/fusesource/example/cdi/camel/jboss/BootStrap.java"
+			],
+			[
+				"baseenti",
+				"src/main/java/br/org/sistemafieg/model/BaseEntity.java"
+			],
+			[
+				"jboss-ejb3",
+				"app-one/ejb/target/classes/META-INF/jboss-ejb3.xml"
+			],
+			[
+				"jboss-client",
+				"app-web/target/jboss-ejb-multi-server-app-web/META-INF/jboss-ejb-client.xml"
+			],
+			[
+				"in",
+				"install-domain.cli"
+			],
+			[
+				"appone.ja",
+				"app-one/ejb/src/main/java/org/jboss/as/quickstarts/ejb/multi/server/app/AppOne.java"
+			],
+			[
+				"apponebean",
+				"app-one/ejb/src/main/java/org/jboss/as/quickstarts/ejb/multi/server/app/AppOneBean.java"
+			],
+			[
+				"appone.java",
+				"app-one/ejb/src/main/java/org/jboss/as/quickstarts/ejb/multi/server/app/AppOne.java"
+			],
+			[
+				"log4j",
+				"WEB-INF/classes/log4j.xml"
+			],
+			[
+				"soap-request.xml",
+				"demos/policy-security-cert/src/test/resources/xml/soap-request.xml"
+			],
+			[
+				"jboss-web.xml",
+				"camel-rss-binding/src/main/webapp/WEB-INF/jboss-web.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 32.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 422.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 410.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
