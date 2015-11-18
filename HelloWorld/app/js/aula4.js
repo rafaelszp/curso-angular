@@ -5,7 +5,7 @@ angular.module('senai')
 IndexController.$inject = ['$scope','AlertService','$filter'];
 function IndexController($scope,AlertService,$filter) {
 
-    $scope.pessoa = {};
+    $scope.entidade = {};
     $scope.pessoas = [];
 
     var variavel_idiota = '';
@@ -21,18 +21,18 @@ function IndexController($scope,AlertService,$filter) {
             return;
         }
 
-        $scope.pessoas.push($scope.pessoa);
-        AlertService.showOk('Aeee!','Vivaaaa! Salvou!' + JSON.stringify($scope.pessoa));
+        $scope.pessoas.push($scope.entidade);
+        AlertService.showOk('Aeee!','Vivaaaa! Salvou!' + JSON.stringify($scope.entidade));
 
-        $scope.dataStr = $filter('date')($scope.pessoa.dataNascimento,'dd/MM/yyyy');
+        $scope.dataStr = $filter('date')($scope.entidade.dataNascimento,'dd/MM/yyyy');
 
         limpar();
     }
 
     function limpar() {
-        $scope.pessoa = {nome: '', email: '', dataNascimento: ''};
+        $scope.entidade = {nome: '', email: '', dataNascimento: ''};
         $scope.frmPessoas.$setPristine();
-        // $scope.pessoa = {};
+        // $scope.entidade = {};
 
     }
 

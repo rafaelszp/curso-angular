@@ -1,5 +1,11 @@
-<div class="col-xs-12">
-    Cadastro de produtos
+<div class="col-xs-12" ng-controller="CadastroProdutoController as vm">
+    <sn-crud titulo="Cadastro de Produtos"
+             salvar="vm.salvar()"
+             limpar="vm.limpar()"
+             exibir-botao-limpar="false">
 
-    <div ui-view></div>
+        <sn-input-text label="Nome" registro="vm.entidade.nome"></sn-input-text>
+        <sn-input-text label="Marca" registro="vm.entidade.marca"></sn-input-text>
+
+    </sn-crud>
 </div>

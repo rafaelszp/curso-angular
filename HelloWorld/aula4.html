@@ -121,10 +121,10 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr ng-repeat="pessoa in pessoas">
-                        <td ng-bind="pessoa.nome | maiusculo"></td>
-                        <td ng-bind="pessoa.email | maiusculo"></td>
-                        <td ng-bind="pessoa.dataNascimento | date:'dd/MM/yyyy'"></td>
+                    <tr ng-repeat="entidade in pessoas">
+                        <td ng-bind="entidade.nome | maiusculo"></td>
+                        <td ng-bind="entidade.email | maiusculo"></td>
+                        <td ng-bind="entidade.dataNascimento | date:'dd/MM/yyyy'"></td>
                     </tr>
                     </tbody>
                 </table>
@@ -132,7 +132,7 @@
                     {{dataStr}}
                 </p>
                 <p>
-                    {{pessoa.nome | maiusculo}}
+                    {{entidade.nome | maiusculo}}
                 </p>
 
             </div>

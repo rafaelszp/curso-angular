@@ -8,8 +8,8 @@ function IndexController($scope, AlertService) {
     var vm = $scope;
 
     vm.pessoas = [];
-    vm.pessoa = {
-        nome:'Pessoa nº '+parseInt(vm.pessoas.length+1), email: 'pessoa'+parseInt(vm.pessoas.length+1)+'@email.com'
+    vm.entidade = {
+        nome:'Pessoa nº '+parseInt(vm.pessoas.length+1), email: 'entidade'+parseInt(vm.pessoas.length+1)+'@email.com'
     };
     vm.gridItemClick = gridItemClick;
 
@@ -39,15 +39,15 @@ function IndexController($scope, AlertService) {
     }
 
     function salvar(){
-        vm.pessoas.push(vm.pessoa);
+        vm.pessoas.push(vm.entidade);
         AlertService.showOk('Sucesso','Pessoa salva com sucesso');
         limpar();
     }
 
     function limpar(){
-        vm.pessoa = {
+        vm.entidade = {
                 nome:'Pessoa nº '+parseInt(vm.pessoas.length+1),
-                email:'pessoa'+parseInt(vm.pessoas.length+1)+'@email.com'};
+                email:'entidade'+parseInt(vm.pessoas.length+1)+'@email.com'};
     }
 
 }

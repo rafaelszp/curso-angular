@@ -1,6 +1,6 @@
 (function () {
 
-    angular.module('senai', ['ui.router', 'ngMaterial','oc.lazyLoad'])
+    angular.module('senai', ['ui.router', 'ngMaterial','oc.lazyLoad','ui.growl'])
         .controller('IndexController', IndexController)
         .config(config);
 
@@ -38,10 +38,7 @@
             url: '/home'
         };
 
-        var produto = {
-            templateUrl: 'app/views/produto/produto-cadastro.html',
-            url: '/produto'
-        };
+
         var pesquisaProduto = {
             templateUrl: 'app/views/produto/produto-pesquisa.html',
             url: '/pesquisa'
@@ -50,29 +47,39 @@
         var pessoa = {
             abstract: true,
             template: '<div ui-view/>',
-            url: '/entidade'
+            url: '/pessoa'
         };
 
         var cadastroPessoa = {
-            templateUrl: 'app/views/entidade/entidade-cadastro.html',
+            templateUrl: 'app/views/pessoa/pessoa-cadastro.html',
             url: '/cadastro/:id',
             resolve: {
                 deps: function ($ocLazyLoad) {
-                    return $ocLazyLoad.load('app/views/entidade/cadastro-entidade-controller.js');
+                    return $ocLazyLoad.load('app/views/pessoa/cadastro-pessoa-controller.js');
+                }
+            }
+        };
+
+        var cadastroProduto = {
+            templateUrl: 'app/views/produto/produto-cadastro.html',
+            url: '/cadastro/:id',
+            resolve: {
+                deps: function ($ocLazyLoad) {
+                    return $ocLazyLoad.load('app/views/produto/cadastro-produto-controller.js');
                 }
             }
         };
 
         var pesquisaPessoa = {
-            templateUrl: 'app/views/entidade/entidade-pesquisa.html',
+            templateUrl: 'app/views/pessoa/pessoa-pesquisa.html',
             url: '/pesquisa'
         };
 
         $stateProvider
             .state('home', home)
-            .state('produto', produto)
+            .state('produto', cadastroProduto)
             .state('produto.pesquisa', pesquisaProduto)
-            .state('pessoa',entidade)
+            .state('pessoa',pessoa)
             .state('pessoa.cadastro',cadastroPessoa)
             .state('pessoa.pesquisa',pesquisaPessoa)
         ;

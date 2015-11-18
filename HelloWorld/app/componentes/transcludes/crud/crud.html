@@ -1,31 +1,33 @@
-<div class="row"> 
-	<div class="panel panel-primary">
-		<div class="panel-heading">
-			<h3 class="panel-title" ng-bind="titulo"></h3>
-		</div>
-		<div class="panel-body">
-			<form novalidate ng-submit="ng-submit">
+<div class="row">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title" ng-bind="titulo"></h3>
+        </div>
+        <div class="panel-body">
 
-				<ng-transclude></ng-transclude>
+                <ng-transclude></ng-transclude>
 
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="pull-left">
-							<button class="btn btn-primary"
-									type="submit">
-								<i class="fa fa-save"></i>
-								Salvar
-							</button>
-							
-							<button class="btn btn-info"
-									type="reset">
-								<i class="fa fa-eraser"></i>
-								Limpar
-							</button>
-						</div>
-					</div>
-				</div>
-			</form>
-</div>
-</div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="pull-left">
+                            <button class="btn btn-primary"
+                                    type="button"
+                                    ng-click="onSalvar()"
+                                    ng-if="exibirBotaoSalvar">
+                                <i class="fa fa-save"></i>
+                                Salvar
+                            </button>
+
+                            <button class="btn btn-info"
+                                    type="reset"
+                                    ng-click="onLimpar()"
+                                    ng-if="exibirBotaoLimpar">
+                                <i class="fa fa-eraser"></i>
+                                Limpar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
 </div>

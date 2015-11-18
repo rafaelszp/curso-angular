@@ -11,7 +11,7 @@
 
         var vm = this;
         vm.title = 'IndexController';
-        vm.pessoa = {};
+        vm.entidade = {};
         $scope.onFocusOutNome = onFocusOutNome;
 
         activate();

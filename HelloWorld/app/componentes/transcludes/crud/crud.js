@@ -16,12 +16,37 @@
             transclude: true,
             templateUrl: 'app/componentes/transcludes/crud/crud.html',
             scope: {
-            	titulo: '@'
+            	titulo: '@',
+                salvar: '&',
+                limpar: '&',
+                exibirBotaoSalvar: '=',
+                exibirBotaoLimpar: '='
             }
         };
         return directive;
 
         function link(scope, element, attrs) {
+
+            scope.onSalvar = onSalvar;
+            scope.onLimpar = onLimpar;
+
+
+            if(scope.exibirBotaoSalvar === undefined ){
+                scope.exibirBotaoSalvar=true;
+            }
+
+            if(scope.exibirBotaoLimpar===undefined ){
+                scope.exibirBotaoLimpar=true;
+            }
+
+            function onSalvar(){
+                scope.salvar();
+            }
+
+            function onLimpar(){
+                scope.limpar();
+            }
+
         }
     }
 

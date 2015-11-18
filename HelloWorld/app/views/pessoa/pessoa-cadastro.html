@@ -1,5 +1,11 @@
-<div class="container-fluid" ng-controller="CadastroPessoaController">
-    Cadastro de pessoas {{pessoa.id}}
+<div class="container-fluid" ng-controller="CadastroPessoaController as vm">
 
-    <button class="btn btn-warning" ng-click="disparar()">Disparar evento :D</button>
+
+    <sn-crud titulo="Cadastro de Pessoas"
+            salvar="vm.salvar()"
+            limpar="vm.limpar()">
+
+        <sn-input-text label="Nome da Pessoa" registro="vm.entidade.nome" ></sn-input-text>
+
+    </sn-crud>
 </div>
