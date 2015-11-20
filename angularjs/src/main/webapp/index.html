@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+
+    <script src="bower_components/angular/angular.js"></script>
+
+    <script src="app/js/app-config.js"></script>
+    <script src="app/js/index-controller.js"></script>
+    <script src="app/views/pessoa/pessoa-service.js"></script>
+
+</head>
+<body ng-app="senai">
+
+<div ng-controller="IndexController as vm" class="container-fluid">
+    <input ng-model="vm.entidade.nome">
+    <button ng-click="vm.testeController()">Teste java</button>
+
+</div>
+
+</body>
+</html>
